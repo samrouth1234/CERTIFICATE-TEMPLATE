@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:wght@600&display=swap");
+body {
+  font-family: "Alex Brush", cursive;
+  font-family: "Inter", sans-serif;
+  background: rgb(204, 204, 204);
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  border: 10px solid rgb(239, 239, 37);
+}
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+.content-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -38px;
+}
+.certificate {
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.presented {
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(86, 86, 86);
+}
+
+.name-stuedent {
+  margin-top: 25px;
+  font-family: Alex Brush;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+}
+.paragraph {
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.paragraph-description {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.photo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+}
